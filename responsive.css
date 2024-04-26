@@ -1,0 +1,167 @@
+.checkbtn{
+    display: none;
+    font-size: x-large;
+    padding: 5px;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width:576px) {
+    .navlinks{
+        height: 300px;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: yellow;
+    }
+
+    .navlinks li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .navlinks li:hover{
+        background-color: white;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    #check:checked~.navlinks{
+        display: flex;
+    }
+
+    .topbar{
+        height: 45vh;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .topbar1{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .phem{
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .topbarlinks{
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .topbarlinks a{
+        padding-top: 5px;
+    }
+
+    .topbarlinks1 {
+        text-align: center;
+        /* padding-top: 15px; */
+        /* margin-right: 50px; */
+    }
+
+    .middlebar{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo1{
+        margin-top: 20px;
+    }
+
+    .jumbotron{
+        padding: 150px 30px;
+        text-align: center;
+    }
+
+    .cardcontainer{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        /* padding: 50px 50px 50px 110px; */
+        padding: 0;
+    }
+
+    .cardp{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cardp p{
+        padding: 10px 0 0 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card1 p{
+        /* padding-top: 10px; */
+        width: 100%;
+        padding: 10px 30px 0 0;
+    }
+
+    .boxcontainer{
+        padding: 0;
+        padding: 5px 10px;
+        text-align: center;
+
+    }
+
+    .box{
+        margin-bottom: 10px;
+    }
+
+    .heading{
+        text-align: center;
+    }
+
+    .imagebox{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .imagebox img{
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .foot{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        /* align-items: center; */
+        /* justify-content: center; */
+        text-align: center;
+    }
+
+    .foot1{
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+        text-align: center;
+    }
+    
+    .foot1 p{
+        margin-bottom: 5px;
+    }
+}
